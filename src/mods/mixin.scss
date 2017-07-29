@@ -1,0 +1,11 @@
+@mixin displayFlex(){
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flex($a: 1){
+	-webkit-box-flex: $a;
+    -webkit-flex: $a;
+    flex: $a;
+}

@@ -1,0 +1,50 @@
+$border: #666;
+$bg: #000;
+
+.tab{
+	.bar-detail{
+		float: right;
+		.bar-item{
+			display: inline-block;
+			font-weight: bold;
+			vertical-align: bottom;
+			cursor: pointer;
+		}
+	}
+	.bar-content{
+		clear: both;
+		height: 60px;
+		background: $border;
+		border: 3px solid $bg;
+	}
+	.capsule-tab{
+		.bar-item{
+			font-size: 14px;
+			padding: 4px 10px;
+			border: 2px solid $bg;
+			border-radius: 20px;
+			background: #999;
+			&.active{
+				background: #e4e4e4;
+			}
+		}
+	}
+	.bar-tab{
+		.bar-item{
+			font-size: 14px;
+			padding: 5px 10px;
+			border: 3px solid $bg;
+			border-top-right-radius: 14px;
+			border-top-left-radius: 14px;
+			border-bottom: none;
+			margin-left: 4px;
+			&.active{
+				padding: 7px 14px;
+				padding-bottom: 10px;
+				margin-bottom: -3px;
+				background: $border;
+				color: #fff;
+			}
+		}
+	}
+}

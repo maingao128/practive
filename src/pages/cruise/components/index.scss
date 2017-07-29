@@ -1,0 +1,25 @@
+@import "../../../mods/reset.scss";
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('https://at.alicdn.com/t/font_umy6on9yk2ihpvi.eot');
+  src: url('https://at.alicdn.com/t/font_umy6on9yk2ihpvi.eot') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_umy6on9yk2ihpvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_umy6on9yk2ihpvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_umy6on9yk2ihpvi.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family:'iconfont';
+}
+
+body{
+  
+}
+#app{
+  padding-bottom: 40px;
+  min-width: 600px;
+}

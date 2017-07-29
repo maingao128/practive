@@ -1,0 +1,51 @@
+.list-item{
+	overflow: hidden;
+	padding: 10px;
+	border: 2px solid #666;
+	margin-top: 12px;
+	border-radius: 8px;
+	position: relative;
+	background: #cce8b5;
+	&.deny{
+		background: #fffbb9;
+	}
+	.icon{
+		float: left;
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+		background: #999;
+		margin-left: 10px;
+	}
+	.infos{
+		float: left;
+		margin-left: 20px;
+		.name{
+			margin-right: 16px;
+			font-weight: bold; 
+		}
+		.resourse-line{
+			color: #666;
+			font-size: 15px;
+		}
+	}
+	.addResource{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.resource-list{
+		margin-left: 10px;
+		.iconfont{
+			color: #555;
+		    vertical-align: middle;
+		    font-size: 15px;
+		    cursor: pointer;
+		}
+	}
+	.deny{
+		font-size: 14px;
+		position: absolute;
+		right: 20px;
+		bottom: 10px;
+	}
+}
